@@ -1,0 +1,52 @@
+body {
+  margin:40px auto;
+  max-width:650px;
+  line-height:1.6;
+  font-size:18px;
+  color:#444;
+  padding:0 10px
+}
+
+h1, h2, h3 {
+  line-height:1.2
+}
+
+.hide {
+  display: none;
+}
+
+.center {
+  margin: auto;
+  text-align: center;
+}
+
+.heart {
+  background-color: #F92770;
+  display: inline-block;
+  height: 10px;
+  margin: 0 5px;
+  position: relative;
+  top: 0;
+  transform: rotate(-45deg);
+  width: 10px;
+}
+
+.heart:before,
+.heart:after {
+  content: "";
+  background-color: #F92770;
+  border-radius: 50%;
+  height: 10px;
+  position: absolute;
+  width: 10px;
+}
+
+.heart:before {
+  top: -5px;
+  left: 0;
+}
+
+.heart:after {
+  left: 5px;
+  top: 0;
+}
